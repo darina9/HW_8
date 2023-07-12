@@ -299,7 +299,7 @@ line-height: normal;
     .offer{
         padding-left:16px ;
         padding-right: 16px;
-		margin: 65px auto o;
+		margin: 65px auto 0;
         gap: 18px;
         justify-content: center;
        
@@ -335,5 +335,109 @@ line-height: normal;
 .products_btn{
     margin: 32px auto 70px;
 }
+}
+
+@media (max-width: 767px){
+    .center{
+        padding-left: calc(50% - 160px);
+        padding-right: calc(50% - 160px);
+    }
+   
+
+    .visibility{
+        display: none;
+    }
+
+    .header_left{
+        margin-left: 16px;
+    }
+    .header_right{
+        margin-right: 16px;
+        max-height: 23px;
+    }
+    .content{
+        min-height: auto;
+    }
+
+    .content_img{
+        display: none;
+    }
+    .content_brand{
+        width: 100%;
+        min-height: 363px;
+        margin: 0;
+        padding: 0 56px;
+
+    
+
+    }
+    .content_brand_name{
+        min-height: 66px;
+        padding: 0 auto;
+    }
+    .content_brand_text{
+       
+		font-size: 38px;
+		line-height: 45.6px;
+    }
+
+    .content_brand_subtext{
+        font-size: 20px;
+		line-height: 24px;
+
+    }
+
+    .offer{
+        margin: 64px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        padding-bottom: 0;
+    }
+    .offer_item_4{
+        max-height: 111px ; 
+    }
+    .offer_item{
+        height: 248px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .products{
+        margin: 64px 0 0;
+        padding: 0 8px;
+       
+    }
+    
+             
+        
+        
+       
+   
+    .products_tagline_text{
+        
+        text-align: center;
+
+    }
+    .products_catalog{
+        margin: 64px auto 0;
+		gap: 16px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+    }
+.products_catalog_card{
+    
+		width: 100%;
+}
+.products_catalog_img{
+    min-height: 418px;
+}
+.products_catalog_info_text{
+    padding: 12px 0 18px;
+}
+
+
 }
 
